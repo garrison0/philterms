@@ -1,5 +1,15 @@
 module.exports = {
   siteName: 'Philosophy Terms',
+
+  templates: { 
+    Post: [ 
+      {
+        path: '/posts/:term',
+        component: './src/templates/Post.vue'
+      }
+    ]
+  },
+
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
