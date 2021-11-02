@@ -16,19 +16,20 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Related Terms", name: "related", widget: "list"}
   - name: "pageDetails"
     label: "PageDetails"
     files:
       - label: "About Page"
         name: "about"
-        file: "content/about.yml"
+        file: "content/about.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
           - {label: "Update Date", name: "date", widget: "date"}
       - label: "Terms Page"
         name: "terms"
-        file: "content/terms.yml"
+        file: "content/terms.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}

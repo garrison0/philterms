@@ -38,7 +38,12 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'PageDetail',
-        path: 'content/**/*.yml'
+        path: 'content/**/*.md',
+        remark: { 
+          plugins: [
+            //
+          ]
+        }
       }
     },
     {
