@@ -4,7 +4,7 @@ module.exports = {
   templates: { 
     Post: [ 
       {
-        path: '/posts/:term',
+        path: '/posts/:title',
         component: './src/templates/Post.vue'
       }
     ]
@@ -32,6 +32,13 @@ module.exports = {
             // ...local plugins
           ]
         }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'PageDetail',
+        path: 'content/**/*.yml'
       }
     },
     {

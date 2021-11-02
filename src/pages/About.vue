@@ -1,9 +1,39 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <div class="about-container">
+      <h1>{{$page.pages.edges[0].node.title}}</h1>
+      <div class="content-container" v-html="$page.pages.edges[0].node.intro"></div>
+      <div class="date-container">
+        <small>Updated {{$page.pages.edges[0].node.date | formatDate}}</small>
+      </div>
+    </div>
   </Layout>
 </template>
+
+<page-query>
+query {
+  pages: allPageDetail ( 
+    filter: 
+    { 
+      fileInfo: 
+      { 
+        name: 
+        {
+          in: "about"
+        } 
+      }
+    }
+  ) {
+    edges {
+      node {
+        title 
+        date
+        intro
+      }
+  	}
+	}
+}
+</page-query>
 
 <script>
 export default {
@@ -12,3 +42,22 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.about-container { 
+  background: #16181f;
+  padding: 25px 45px;
+}
+h1 { 
+  font-size: 2.5rem;
+  margin: 0;
+  border-bottom: 1px solid rgb(57,57,57);
+}
+.content-container { 
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(57,57,57);
+}
+.date-container { 
+  margin-top: 15px;
+}
+</style>
