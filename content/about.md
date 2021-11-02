@@ -12,4 +12,4 @@ For example, "mereology" may be defined as "the study of parts and wholes", but 
 
 We follow the [](https://developers.google.com)[Google Developer Documentation Style Guide](https://developers.google.com/style/) and we target a **high-school reading level**. 
 
-Philosophy Terms can be seen as a companion site to the [Stanford Encyclopedia of Philosophy.](https://plato.stanford.edu/)
+Philosophy Terms accompanies the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - it doesn't replace it.
