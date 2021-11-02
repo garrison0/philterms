@@ -24,13 +24,13 @@ collections:
         name: "about"
         file: "content/about.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Update Date", name: "date", widget: "date"}
       - label: "Terms Page"
         name: "terms"
         file: "content/terms.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Update Date", name: "date", widget: "date"}

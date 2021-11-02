@@ -78,10 +78,10 @@ export default {
       if(this.matchingPosts && this.matchingPosts.length) { 
         // up arrow
         if (event.keyCode == 38) { 
-          if (this.currentItem < 0) { 
+          if (this.currentItem <= 0) { 
             this.currentItem = this.matchingPosts.length - 1;
           } else { 
-            this.currentItem = Math.abs((this.currentItem - 1) % this.matchingPosts.length);
+            this.currentItem = this.currentItem - 1;
           }
         // down arrow
         } else if (event.keyCode == 40) { 

@@ -2,7 +2,7 @@
   <Layout>
     <div class="about-container">
       <h1>{{$page.pages.edges[0].node.title}}</h1>
-      <div class="content-container" v-html="$page.pages.edges[0].node.intro"></div>
+      <div class="content-container" v-html="$page.pages.edges[0].node.content"></div>
       <div class="date-container">
         <small>Updated {{$page.pages.edges[0].node.date | formatDate}}</small>
       </div>
@@ -26,9 +26,9 @@ query {
   ) {
     edges {
       node {
-        title 
+        content
         date
-        intro
+        title
       }
   	}
 	}

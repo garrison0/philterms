@@ -14,6 +14,9 @@
       </div>
     </header>
     <div class="layout">
+      <div style="margin-bottom: 10px" v-if="$route.path !== '/'"> 
+        <g-link to="/" class="home">Home</g-link> ▶ {{getEndOfPath}}
+      </div>
       <slot/>
     </div>
     <div class="footer">
@@ -42,6 +45,18 @@ query {
 }
 </static-query>
 
+<script>
+export default {
+  computed: { 
+    getEndOfPath() { 
+      // todo: need a more elegant solution here
+      let path = this.$route.path.split('/').filter(s => s !== "");
+      return path[path.length-1].replace('-', ' ');
+    }
+  }  
+}
+</script>
+
 <style>
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -62,8 +77,21 @@ body {
 }
 
 a { 
-  color: white;
+  color: #ebf4f1;
   text-decoration: none;
+}
+
+.home { 
+  transition: color .3s, text-decoration-color .4s;
+  color: #ceb983;
+  text-decoration: underline;
+  text-decoration-color: rgb(57,57,57);
+}
+
+.home:hover { 
+  color: #ebf4f1;
+  cursor: pointer;
+  text-decoration-color: #ebf4f1;
 }
 
 .header {

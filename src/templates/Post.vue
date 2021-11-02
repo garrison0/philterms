@@ -3,6 +3,12 @@
     <div class="post-container">
       <h1>{{$page.post.title}}</h1>
       <div class="content-container" v-html="$page.post.content"></div>
+      <div class="related-terms" v-if="$page.post.related.length"> 
+        Related terms: 
+        <a @click="clickTerm(term)" v-for="(term, index) in $page.post.related" :key="index">
+          {{term}}
+        </a>
+      </div>
       <div class="citations-container">
         <div class="citations">citations</div>
         <small>Posted {{$page.post.date | formatDate}}</small>
@@ -17,6 +23,7 @@ query ($id: ID!) {
     date
     title
     content
+    related
   }
 }
 </page-query>
@@ -25,6 +32,11 @@ query ($id: ID!) {
 export default {
   metaInfo: {
     title: 'Definition'
+  },
+  methods: {
+    clickTerm(term) { 
+      this.$router.push('/posts/' + term);
+    }
   }
 }
 </script>
@@ -42,6 +54,9 @@ export default {
   align-items: center;
 }
 
+.related-terms { 
+  margin-top: 10px;
+}
 .citations { 
   flex: 1;
 }
@@ -49,6 +64,19 @@ export default {
 small { 
   flex: 1;
   text-align: end;
+}
+
+a { 
+  transition: color .3s, text-decoration-color .4s;
+  color: #ceb983;
+  text-decoration: underline;
+  text-decoration-color: rgb(57,57,57);
+}
+
+a:hover { 
+  color: #ebf4f1;
+  cursor: pointer;
+  text-decoration-color: #ebf4f1;
 }
 
 .post-container { 
