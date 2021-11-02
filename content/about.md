@@ -10,6 +10,6 @@ Philosophy Terms makes philosophical jargon easy to understand and appreciate. P
 
 For example, "mereology" may be defined as "the study of parts and wholes", but why does anyone care about that? What important issues reason about parts and wholes? A good definition will answer all of these questions.
 
-We follow the [](https://developers.google.com)[Google Developer Documentation Style Guide](https://developers.google.com/style/) and we target a **high-school reading level**. 
+We follow the [](https://developers.google.com)[Google Developer Documentation Style Guide](https://developers.google.com/style/) and we target a **high-school reading level**.
 
 Philosophy Terms accompanies the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - it doesn't replace it.

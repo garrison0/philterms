@@ -3,9 +3,9 @@
     <header class="header">
       <div class="header-bar" />
       <div class="header-inner">
-        <strong>
+        <div class="site-title">
           <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-        </strong>
+        </div>
         <SearchBar v-if="$route.path !== '/'" :posts="$static.posts" />
         <nav class="nav">
           <g-link class="nav-link" to="/">Home</g-link>
@@ -15,12 +15,12 @@
     </header>
     <div class="layout">
       <div style="margin-bottom: 10px" v-if="$route.path !== '/'"> 
-        <g-link to="/" class="home">Home</g-link> ▶ {{getEndOfPath}}
+        <g-link to="/">Home</g-link> ▶ {{getEndOfPath}}
       </div>
       <slot/>
     </div>
     <div class="footer">
-      <small>© 2021 <a href="https://www.moodmusic.me">Garrison McMullen</a></small>
+      <small>© 2021 <g-link to="https://www.moodmusic.me">Garrison McMullen</g-link> </small>
     </div>
   </div>
 </template>
@@ -77,18 +77,13 @@ body {
 }
 
 a { 
-  color: #ebf4f1;
-  text-decoration: none;
-}
-
-.home { 
-  transition: color .3s, text-decoration-color .4s;
   color: #ceb983;
   text-decoration: underline;
   text-decoration-color: rgb(57,57,57);
+  transition: color .3s, text-decoration-color .4s;
 }
 
-.home:hover { 
+a:hover { 
   color: #ebf4f1;
   cursor: pointer;
   text-decoration-color: #ebf4f1;
@@ -126,10 +121,16 @@ a {
   align-items: center;
 }
 
-strong { 
+.site-title { 
   flex: 1;
   min-width: 225px;
+  font-weight: bold;
   font-size: 1.5rem;
+}
+
+.site-title a { 
+  text-decoration: none;
+  color: #ebf4f1;
 }
 
 nav { 
@@ -146,6 +147,8 @@ nav {
   align-items: center;
   justify-content: center;
   transition: background .3s, color .3s;
+  text-decoration: none;
+  color: #ebf4f1;
 }
 
 .nav-link:hover { 
