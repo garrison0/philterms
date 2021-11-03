@@ -3,6 +3,9 @@ title: causation
 excerpt: "A \\*\\*cause\\*\\* produces an \\*\\*effect\\*\\*. Except not always:
   smoking causes cancer, but smoking only sometimes results in cancer"
 date: 2021-11-03T00:29:11.774Z
+authors:
+  - First name: Garrison
+    Last name: McMullen
 ---
 A \*\*cause\*\* produces an \*\*effect\*\*. Except not always: smoking causes cancer, but smoking only sometimes results in cancer.
 
