@@ -4,6 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import Preview from '~/components/Preview.vue'
 import SearchBar from '~/components/SearchBar.vue'
+import Citations from '~/components/Citations.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faSearch, faTimes } from '@fortawesome/free-solid-svg-icons'
@@ -17,6 +18,7 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Preview', Preview);
   Vue.component('SearchBar', SearchBar);
+  Vue.component('Citations', Citations);
   Vue.component('Layout', DefaultLayout);
   Vue.component('font-awesome', FontAwesomeIcon);
 

@@ -1,15 +1,21 @@
 ---
 title: concept
-excerpt: A concept is an introspectively available type of entity fundamental to thought
+excerpt: Concepts are fundamental to thought. "Concept" comes from the Latin word "conceptum" meaning "something conceived."
 date: 2021-11-03T03:35:01.224Z
 ---
-A concept is an introspectively available type of entity fundamental to thought.
+Concepts are fundamental to thought. "Concept" comes from the Latin word "conceptum" meaning "something conceived."
 
-There is no agreement as to what concepts are.
+Philosophers disagree about the nature of concepts. Some possible options:
 
-Examples of concepts include:
+* intensions
+* mental representations of categories
+* discriminatory abilities
 
-* Categories of things like CATS
-* Phrases like WALKING THE DOG
-* Abstract ideas like LIMIT, TIME, and FIVE
+And so on. People have thousands of concepts. Examples include:
+
+* Categories like CATS
+* Phrases like OVER THE RIVER AND THROUGH THE WOODS
+* Abstract ideas like VALUE, FREEDOM, and FIVE THOUSAND
 * Actions like RUN
+
+And so on. Philosophers often use research from psychology and linguistics to reason about concepts. Philosophers in experimental philosophy debate whether concepts are [*modal* or *amodal*](...). Likewise, philosophers in conceptual engineering argue about revising concepts.

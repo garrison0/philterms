@@ -41,7 +41,6 @@ module.exports = {
         path: 'content/**/*.md',
         remark: { 
           plugins: [
-            //
           ]
         }
       }
