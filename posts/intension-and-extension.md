@@ -1,5 +1,5 @@
 ---
-title: intension and extension
+title: intension / extension
 excerpt: The **intension** of a \[term](...) is its meaning. The intension of
   the word "snake" is whatever "snake" means, which may include, beside
   properties of snakes, like "reptile", "vertebrate", etc., qualities or
