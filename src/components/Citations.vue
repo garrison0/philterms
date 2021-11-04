@@ -1,15 +1,14 @@
 <template>
-  <div>
+  <div class="tabs-container">
     <div class="tabs">
-      <div class="tab" v-for="(style, index) in Object.values(citationStylesEnum)" :key="index"
-                      @click="onClick(index)"
-                      :aria-selected="index === currentIndex">
+      <div class="tab push-button" 
+            v-for="(style, index) in Object.values(citationStylesEnum)" :key="index"
+            @click="onClick(index)"
+            :aria-selected="index === currentIndex">
         {{style}}
       </div>
     </div>
-    <div v-if="currentIndex > -1" class="citation">
-      {{ formatCitation() }}
-    </div>
+    <div v-if="currentIndex > -1" class="citation" v-html="formatCitation()" />
   </div>
 </template>
 
@@ -31,22 +30,52 @@ export default {
       this.currentIndex = index;
     },
     formatCitation () { 
+      let c = "";
       switch (Object.values(this.citationStylesEnum)[this.currentIndex]) {
-        case this.citationStylesEnum.MLA:
-          return "MLA";
         case this.citationStylesEnum.APA:
-          return "APA";
+          this.post.authors.forEach( author => { 
+            c += author.lastName + ", " + author.firstName[0] + ". ";
+          });
+          c += '(' + this.$options.filters.formatDateAPA(this.post.date) + '). ';
+          c += '<i>' + this.post.title + '</i>. ';
+          c += this.$static.metadata.siteName + '. ';
+          break;
+        case this.citationStylesEnum.MLA:
+          this.post.authors.forEach( author => { 
+            c += author.lastName + ", " + author.firstName + ". ";
+          });
+          c += '"' + this.post.title + '." ';
+          c += "<i>" + this.$static.metadata.siteName + "</i>, ";
+          c += this.$options.filters.formatDateMLA(this.post.date) + ', ';
+          break;
         case this.citationStylesEnum.CHICAGO:
-          return "Chicago";
-        default: 
-          return "";
+          c += this.$static.metadata.siteName + '. ';
+          c += '"' + this.post.title + '."';
+          c += " Last modified "
+          c += this.$options.filters.formatDateChicago(this.post.date) + ". ";
+          break;
       }
+      c += this.$static.metadata.siteUrl + this.$route.fullPath;
+      return c;
     }
   }
 }
 </script>
 
+<static-query>
+query { 
+  metadata {
+    siteName
+    siteUrl
+  }
+}
+</static-query>
+
 <style>
+
+.tabs-container { 
+  flex: 2;
+}
 
 .tabs { 
   display: inline-flex;
@@ -62,17 +91,6 @@ export default {
 
 .tab {
   padding: 5px 20px;
-  background: #3a4255;
-  cursor: pointer;
-  transition: background .3s;
-}
-
-.tab:hover { 
-  background: #1f232d;
-}
-
-.tab:active, .tab[aria-selected="true"] {
-    background-color: #16181f;
 }
 
 .citation { 

@@ -6,6 +6,10 @@
       <h3 style="margin: 25px">
         Find simple definitions
       </h3>
+      <div class="random-button light-up" @click="onClick"> 
+        Random term 
+        <font-awesome :icon="['fa', 'random']" /> 
+      </div>
     </div>
   
     <div v-for="edge in $page.posts.edges" :key="edge.node.id">
@@ -35,6 +39,12 @@ query {
 export default {
   metaInfo: {
     title: 'Home page'
+  },
+  methods: { 
+    onClick() { 
+      let index = Math.floor(Math.random() * this.$page.posts.edges.length);
+      this.$router.push( this.$page.posts.edges[index].node.path );
+    }
   }
 }
 </script>
@@ -43,6 +53,15 @@ export default {
 
 .homepage-container { 
   text-align: center;
+}
+
+.random-button { 
+  margin: auto;
+  max-width: 150px;
+  font-weight: bold;
+  padding: 20px 25px;
+  border: 1px solid rgb(57,57,57);
+  background: #16181f;
 }
 
 </style>

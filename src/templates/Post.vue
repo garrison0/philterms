@@ -10,7 +10,7 @@
         </a>
       </div>
       <div class="post-footer">
-        <Citations />
+        <Citations :post="$page.post" />
         <small>Posted {{$page.post.date | formatDate}}</small>
       </div>
     </div>
@@ -23,6 +23,10 @@ query ($id: ID!) {
     date
     title
     content
+    authors { 
+      firstName
+      lastName
+    }
   }
 }
 </page-query>

@@ -25,7 +25,7 @@
       </ul>
     </form>
 
-    <button class="search-button" @click="submitSearch()">
+    <button class="light-up" @click="submitSearch()">
       <font-awesome :icon="['fa', 'search']" />
     </button>
   </div>

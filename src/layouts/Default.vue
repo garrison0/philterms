@@ -8,8 +8,8 @@
         </div>
         <SearchBar v-if="$route.path !== '/'" :posts="$static.posts" />
         <nav class="nav">
-          <g-link class="nav-link" to="/">Home</g-link>
-          <g-link class="nav-link" to="/about/">About</g-link>
+          <g-link class="nav-link light-up" to="/">Home</g-link>
+          <g-link class="nav-link light-up" to="/about/">About</g-link>
         </nav>
       </div>
     </header>
@@ -20,7 +20,7 @@
       <slot/>
     </div>
     <div class="footer">
-      <small>© 2021 <g-link to="https://www.moodmusic.me">Garrison McMullen</g-link> </small>
+      <small>An open source project by <g-link to="https://www.moodmusic.me">Garrison McMullen</g-link> </small>
     </div>
   </div>
 </template>
@@ -89,6 +89,36 @@ a:hover {
   text-decoration-color: #ebf4f1;
 }
 
+.push-button {
+  background: #3a4255;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.push-button:hover { 
+  background: #1f232d;
+}
+
+.push-button:active, .tab[aria-selected="true"] {
+  background-color: #16181f;
+}
+
+.light-up { 
+  transition: background .3s, color .3s;
+  text-decoration: none;
+  color: #ebf4f1;
+}
+
+.light-up:hover { 
+  background: #3a4255;
+  color: #ceb983;
+  cursor: pointer;
+}
+
+.light-up:active {
+    background: #1f232d;
+}
+
 .header {
   position: fixed;
   display: block;
@@ -146,21 +176,12 @@ nav {
   max-width: 75px;
   align-items: center;
   justify-content: center;
-  transition: background .3s, color .3s;
-  text-decoration: none;
-  color: #ebf4f1;
-}
-
-.nav-link:hover { 
-  background: #3a4255;
-  color: #ceb983;
-  cursor: pointer;
 }
 
 .footer { 
   text-align: center;
   margin: 20px;
-  opacity: 40%;
+  opacity: 70%;
 }
 
 </style>

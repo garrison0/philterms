@@ -1,5 +1,5 @@
 <template>
-  <div @click="onClick" class="card">
+  <div @click="onClick" class="card light-up">
     <div class="post-link">{{post.node.title}}</div>
     <p class="post-preview">{{post.node.excerpt}}...</p>
     <small>Posted {{post.node.date | formatDate}}</small>
@@ -28,13 +28,10 @@ export default {
   background: #16181f;
   z-index: 1;
 
-  transition: transform .3s, color .3s, background-color .3s;
+  transition: transform .3s;
 }
 
 .card:hover { 
-  background: #3a4255;
-  color: #ceb983;
-  cursor: pointer;
   transform: translateY(-3px);
 }
 
