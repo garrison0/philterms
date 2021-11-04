@@ -11,4 +11,4 @@ date: 2021-11-04T17:58:05.133Z
 * a thought
 * a perception
 
-And so on. For example, your mental state may be a belief. If you believe that the earth is flat, then the meaning of 'the earth is flat' is *mental content* of your belief.
+And so on. For example, your mental state may be a belief. If you believe that the earth is flat, then the meaning of 'the earth is flat' is *mental content* of your belief. Because your belief contains 'the earth is flat.'
