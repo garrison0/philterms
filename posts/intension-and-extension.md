@@ -8,7 +8,7 @@ date: 2021-11-04T02:09:18.992Z
 ---
 The **intension** of a \[term](...) is its meaning. The intension of the word "snake" is whatever "snake" means, which may include, beside properties of snakes, like "reptile", "vertebrate", etc., qualities or properties typically *associated* with snakes, such as: 
 
-* the spooky sound of a rattlesnake's rattle 
+* the sound of a rattlesnake's rattle 
 * sliminess
 * deceitfulness 
 
