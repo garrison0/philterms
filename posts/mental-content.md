@@ -11,4 +11,4 @@ date: 2021-11-04T17:58:05.133Z
 * a thought
 * a perception
 
-And so on. Mental states represent the world with mental contents. For example, you may believe that the earth is flat. If you believe that the earth is flat, then the meaning of 'the earth is flat' is the *mental content* of your belief that the earth is flat.
+And so on. Mental states represent the world with mental contents. For example, you may believe that the earth is flat. If you believe that the earth is flat, then the \[meaning](...) of 'the earth is flat' is the *mental content* of your belief that the earth is flat.
