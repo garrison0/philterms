@@ -4,7 +4,7 @@ excerpt: \*Content\* comes from the Latin word "contentus" meaning "contained."
   \*\*Mental content\*\* is the \*content\* of a mental state
 date: 2021-11-04T17:58:05.133Z
 ---
-\*Content\* comes from the Latin word "contentus" meaning "contained." \*\*Mental content\*\* is the \*content\* of a mental state. It is contained in the mental state. Your mental state is your state of mind. Your mental state may be characterized as:
+\*Content\* comes from the Latin word "contentus" meaning "contained." \*\*Mental content\*\* is the \*content\* of mental states; mental states contain mental contents. Your mental state is your state of mind. Your mental state may be characterized as:
 
 * a belief
 * a desire
