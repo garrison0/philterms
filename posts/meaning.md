@@ -12,4 +12,4 @@ When I say to you, "I'm going on a walk," you understand me. Whatever you unders
 * *How* do sentences have meaning?
 * *How* does meaning relate to truth?
 
-The philosophy of language studies [meaning](https://plato.stanford.edu/entries/meaning/), [reference](https://plato.stanford.edu/entries/reference/), and more.
+Meaning is not just about sentences; mathematical symbols and stop signs have meaning. The philosophy of language studies [meaning](https://plato.stanford.edu/entries/meaning/), [reference](https://plato.stanford.edu/entries/reference/), and more.
