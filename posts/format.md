@@ -7,13 +7,11 @@ The format of a \[mental representation](...) is the mental representation's str
 
 Examples of one format, many contents:
 
-| format                      | potential contents                                                                                                                                                                                            |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| "Abraham Lincoln's address" | <ul> <li>Abraham Lincoln's *speech*</li> <li>Abraham Lincoln's *home address*</li> </ul>                                                                                                                      |
-| Empedocles leaped soundbite | <ul> <li>In English: Empedocles *leaped*.</li> <li>In German: Empedocles *liebt*. (translation: Empedocles loves)</li> </ul>                                                                                  |
-| Db Major soundbite          | <ul> <li> <audio controls> <source src="https://soundcloud.com/garrison-722329197/neapolitan-in-c-major/s-XVA3AtTc1I3" /></audio> </li> <li>C minor phrygian soundbite</li> <li>Db major soundbite</li> </ul> |
-
-
+| format                      | potential contents                                                                                                                                                   |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| "Abraham Lincoln's address" | <ul> <li>Abraham Lincoln's *speech*</li> <li>Abraham Lincoln's *home address*</li> </ul>                                                                             |
+| Empedocles leaped soundbite | <ul> <li>In English: Empedocles *leaped*.</li> <li>In German: Empedocles *liebt*. (translation: Empedocles loves)</li> </ul>                                         |
+| Db Major soundbite          | <ul> <li> <audio controls> <source src="static/uploads/bii-in-c-phrygian.wav" /></audio> </li> <li>C minor phrygian soundbite</li> <li>Db major soundbite</li> </ul> |
 
 Examples of one content, many formats:
 
