@@ -27,8 +27,6 @@ export default {
   border: 1px solid rgb(57,57,57);
   background: #16181f;
   z-index: 1;
-
-  transition: transform .3s;
 }
 
 .card:hover { 

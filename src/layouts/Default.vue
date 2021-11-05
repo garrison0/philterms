@@ -89,6 +89,59 @@ a:hover {
   text-decoration-color: #ebf4f1;
 }
 
+table { 
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: 1px solid rgb(57,57,57);
+}
+
+tbody { 
+  font-size: 14px;
+}
+
+tr:first-child {
+  border-top: rgb(57,57,57);
+}
+
+tr {
+  border-bottom: rgb(57,57,57);
+}
+
+th { 
+  background: #1f232d;;
+  height: 60px;
+  padding: 0 12px;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 20px;
+}
+
+td { 
+  border: 1px solid rgb(57,57,57);
+  border-left: none;
+  border-right: none;
+  padding: 16px 12px;
+  padding-right: 8px;
+}
+
+td:nth-child(2n+1) {
+  padding-right: 20px;
+}
+
+audio { 
+  background: #ceb983;
+  margin-top: 5px;
+}
+
+td ul {
+  padding-left: 12px;
+}
+
+ul {
+  margin: 0;
+}
+
 .push-button {
   background: #3a4255;
   cursor: pointer;
@@ -104,7 +157,7 @@ a:hover {
 }
 
 .light-up { 
-  transition: background .3s, color .3s;
+  transition: background .3s, color .3s, transform .3s;
   text-decoration: none;
   color: #ebf4f1;
 }
