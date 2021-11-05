@@ -15,7 +15,7 @@ Examples of one format, many contents:
 
 Examples of one content, many formats:
 
-| content                                                                                      | potential formats                                                                                               |
-| -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| All ravens are black                                                                         | <ul> <li>όλα τα κοράκια είναι μαύρα</li> <li>सभी कौवे काले हैं</li> <li>todos los cuervos son negros</li> </ul> |
-| This sound: <audio controls> <source src="/uploads/db-major.wav" type="audio/wav" /></audio> | <ul> <li>Db major</li> <li>V of Gb major</li>  <li></li></ul>                                                   |
+| content                                                                                      | potential formats                                                                                                                                          |
+| -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| All ravens are black                                                                         | <ul> <li>όλα τα κοράκια είναι μαύρα</li> <li>सभी कौवे काले हैं</li> <li>todos los cuervos son negros</li> </ul>                                            |
+| This sound: <audio controls> <source src="/uploads/db-major.wav" type="audio/wav" /></audio> | <ul> <li>Db major</li> <li>V of Gb major</li>  <li><audio controls> <source src="/uploads/speaking-d-flat-major.mp3" type="audio/mp3" /></audio></li></ul> |
