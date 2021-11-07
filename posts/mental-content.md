@@ -5,6 +5,8 @@ excerpt: \*Content\* comes from the Latin word "contentus" meaning "contained."
 date: 2021-11-04T17:58:05.133Z
 related:
   - meaning
+  - format
+  - mental-representation
 ---
 \*Content\* comes from the Latin word "contentus" meaning "contained." A \*\*mental content\*\* is a \*content\* of a mental state; mental states contain mental contents. Your mental state is your state of mind. Your mental state may be characterized as:
 
