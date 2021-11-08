@@ -10,4 +10,6 @@ Mental states can be *about* things. They *concern* or *refer to:*
 * ideas
 * qualities
 
-And so on. For example, this article is *about* intentionality. A belief that 'bananas are yellow' is *about* bananas. Intentionality refers to this *about-ness*.
+And so on. For example, a belief that 'bananas are yellow' is *about* bananas in the same way as this article is *about* intentionality. Intentionality refers to this *about-ness*.
+
+Some reductive representationalists reduce conscious experience to intentionality (construed as \[mental representation](...)). If this explanation is accurate, then consciousness has a \[naturalistic](https://plato.stanford.edu/entries/naturalism/) explanation.
