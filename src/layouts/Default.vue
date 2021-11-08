@@ -131,7 +131,7 @@ td:nth-child(2n+1) {
 
 audio { 
   background: #ceb983;
-  margin-top: 5px;
+  margin: 5px 0;
 }
 
 td ul {
@@ -140,6 +140,14 @@ td ul {
 
 ul {
   margin: 0;
+}
+
+li img { 
+  margin: 5px 0;
+}
+
+li > :not(em) {
+  vertical-align: middle;
 }
 
 .push-button {
