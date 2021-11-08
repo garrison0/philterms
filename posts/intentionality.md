@@ -12,4 +12,6 @@ Mental states can be *about* things. They *concern* or *refer to:*
 
 And so on. For example, a belief that 'bananas are yellow' is *about* bananas in the same way as this article is *about* intentionality. Intentionality refers to this *about-ness*.
 
-Some reductive representationalists reduce conscious experience to intentionality (construed as \[mental representation](...)). If this explanation is accurate, then consciousness has a \[naturalistic](https://plato.stanford.edu/entries/naturalism/) explanation.
+Some reductive representationalists reduce conscious experience to intentionality (construed as \[mental representation](...)). If this explanation is accurate, then consciousness has a \[naturalistic](https://plato.stanford.edu/entries/naturalism/) explanation. 
+
+John Searle's \[Chinese Room Argument](https://plato.stanford.edu/entries/chinese-room/#Inte) claims that computers could never have mental states with intentionality.
