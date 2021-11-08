@@ -17,6 +17,8 @@ The concept of CAT is *amodal* if the mental representation of CAT is something 
 
 For example, consider a chiliagon. A chiliagon is shape with 1,000 sides.
 
+<img src="/uploads/chiliagon.png" />
+
  (a picture would be dope here!) Chiliagons are perceptually the same circles, but the concept of CHILIAGON is different from the concept of CIRCLE. An amodal theorist uses this as evidence for amodal concepts. 
 
 On the other hand, ... use an example 
