@@ -5,6 +5,7 @@ date: 2021-11-06T02:10:18.092Z
 related:
   - mental-content
   - format
+  - qualia
 ---
 Mental representations are hypothetical objects in the mind that represent the world. Mental representations traditionally explain three related things: 
 
@@ -27,6 +28,7 @@ An illusion is just a perception that is false. If you did not perceive through 
 Some philosophers work extensively with cognitive science research. These philosophers typically distinguish between a mental representation's \[format](...) and its \[content](...). They use this distinction to argue about:
 
 * the nature of concepts
+* the nature of \[qualia](...)
 * the existence of non-conceptual representations
 * the difference between thinking and seeing
 
