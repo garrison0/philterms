@@ -1,0 +1,35 @@
+---
+title: mental representation
+excerpt: mental representation
+date: 2021-11-06T02:10:18.092Z
+related:
+  - mental-content
+  - format
+  - qualia
+---
+Mental representations are hypothetical objects in the mind that represent the world. Mental representations traditionally explain three related things: 
+
+### 1. some (or all) mental states have \[intentionality](...). 
+
+Intentionality begs for an explanation. A *representationalist* argues that, when you believe 'the earth is flat':
+
+* your mental state is *belief*
+* you, in your state of belief, relate to a mental representation
+* the mental representation's \[content](...) is that *the earth is flat*.
+
+### 2. you can imagine. 
+
+The ability to imagine a banana without directly perceiving a banana implies that the mind has a *stored representation* of bananas. 
+
+### 3. you can perceive illusions and hallucinations. 
+
+An illusion is just a perception that is false. If you did not perceive through mental representations, how could a perception be false?
+
+Some philosophers work extensively with cognitive science research. These philosophers typically distinguish between a mental representation's \[format](...) and its \[content](...). They use this distinction to argue about:
+
+* the nature of concepts
+* the nature of \[qualia](...)
+* the existence of non-conceptual representations
+* the difference between thinking and seeing
+
+And so on.
