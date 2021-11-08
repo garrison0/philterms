@@ -2,6 +2,10 @@
 title: format
 excerpt: format
 date: 2021-11-05T04:41:25.530Z
+related:
+  - mental-representation
+  - mental-content
+  - meaning
 ---
 The **format** of a \[mental representation](...) is its structure. Format is opposed to \[content](...). A format has content in the same way as a word has meaning.
 
@@ -15,9 +19,7 @@ A format can have many potential contents:
 
 And a content can have many potential formats:
 
-| content                                                                                      | potential formats                                                                                                                                                                                                                   |
-| -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| All ravens are black                                                                         | <ul> <li>"All ravens are black"</li><li>"όλα τα κοράκια είναι μαύρα"</li> <li>"सभी कौवे काले हैं"</li> <li>"todos los cuervos son negros"</li> </ul>                                                                                                                     |
+| content                                                                                      | potential formats                                                                                                                                                                                                           |
+| -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| All ravens are black                                                                         | <ul> <li>"All ravens are black"</li><li>"όλα τα κοράκια είναι μαύρα"</li> <li>"सभी कौवे काले हैं"</li> <li>"todos los cuervos son negros"</li> </ul>                                                                        |
 | This sound: <audio controls> <source src="/uploads/db-major.wav" type="audio/wav" /></audio> | <ul> <li>"Db major"</li> <li>"V of Gb major"</li> <li><img src="/uploads/db-major-pic.png" width="100%" /></li> <li><audio controls> <source src="/uploads/speaking-d-flat-major.mp3" type="audio/mp3" /></audio></li></ul> |
-
-Something about representation theory.
