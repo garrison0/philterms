@@ -4,7 +4,7 @@
       <div class="header-bar" />
       <div class="header-inner">
         <div class="site-title">
-          <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+          <g-link to="/"> <g-image src="~/title.png" width="250"/> </g-link>
         </div>
         <SearchBar v-if="$route.path !== '/'" :posts="$static.posts" />
         <nav class="nav">
@@ -230,14 +230,11 @@ li > :not(em, a) {
 
 .site-title { 
   flex: 1;
-  min-width: 225px;
-  font-weight: bold;
-  font-size: 1.5rem;
+  margin-right: 5px;
 }
 
 .site-title a { 
-  text-decoration: none;
-  color: #ebf4f1;
+  display: flex;
 }
 
 nav { 

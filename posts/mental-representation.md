@@ -18,13 +18,15 @@ Intentionality begs for an explanation. A *representationalist* argues that, whe
 * you, in your state of belief, relate to a mental representation
 * the mental representation's [content](/posts/mental-content/) is that *the earth is flat*.
 
+...
+
 ### 2. You can imagine
 
 The ability to imagine a banana without directly perceiving a banana implies that the mind has a *stored representation* of bananas.
 
 ### 3. You can perceive illusions and hallucinations
 
-An illusion is just a perception that's false. If you directly perceived reality, and didn't perceive through mental representations, how could a perception be false?
+An illusion is just a perception that's false. If you directly perceived reality, and didn't perceive through mental representations, how could a perception be false? ...
 
 Some philosophers work extensively with cognitive science research. These philosophers typically distinguish between a mental representation's [format](/posts/format/) and its [content](/posts/mental-content/). They use this distinction to argue about:
 

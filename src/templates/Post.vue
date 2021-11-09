@@ -36,7 +36,7 @@ query ($id: ID!) {
 <script>
 export default {
   metaInfo: {
-    title: 'Definition'
+    title: 'Posts'
   },
   methods: {
     clickTerm(term) { 
