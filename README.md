@@ -4,7 +4,14 @@
   </a>
 
   <em align="center"> Find simple definitions </em>
+  
 </div>
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/garrison0/philterms" />
+  <img src="https://img.shields.io/netlify/a488a1a3-3de7-4bae-8cae-1c579ac42d03" />
+  <img src="https://img.shields.io/github/contributors/garrison0/philterms" />
+</p>
 
 <h1 />
 
