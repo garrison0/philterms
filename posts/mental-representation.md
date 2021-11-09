@@ -1,6 +1,7 @@
 ---
 title: mental representation
-excerpt: mental representation
+excerpt: Mental representations are hypothetical objects in the mind that
+  represent the world
 date: 2021-11-06T02:10:18.092Z
 related:
   - mental-content
