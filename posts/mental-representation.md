@@ -10,7 +10,7 @@ related:
 ---
 Mental representations are hypothetical objects in the mind that represent the world. Mental representations traditionally explain three related things:
 
-### 1. some (or all) mental states have [intentionality](/posts/intentionality/)
+### 1. Some (or all) mental states have [intentionality](/posts/intentionality/)
 
 Intentionality begs for an explanation. A *representationalist* argues that, when you believe 'the earth is flat':
 
@@ -18,17 +18,17 @@ Intentionality begs for an explanation. A *representationalist* argues that, whe
 * you, in your state of belief, relate to a mental representation
 * the mental representation's [content](/posts/mental-content/) is that *the earth is flat*.
 
-### 2. you can imagine
+### 2. You can imagine
 
 The ability to imagine a banana without directly perceiving a banana implies that the mind has a *stored representation* of bananas.
 
-### 3. you can perceive illusions and hallucinations
+### 3. You can perceive illusions and hallucinations
 
-An illusion is just a perception that is false. If you did not perceive through mental representations, how could a perception be false?
+An illusion is just a perception that's false. If you directly perceived reality, and didn't perceive through mental representations, how could a perception be false?
 
 Some philosophers work extensively with cognitive science research. These philosophers typically distinguish between a mental representation's [format](/posts/format/) and its [content](/posts/mental-content/). They use this distinction to argue about:
 
-* the nature of concepts
+* the nature of [concepts](/posts/concept/)
 * the nature of [qualia](/posts/qualia/)
 * the existence of non-conceptual representations
 * the difference between thinking and seeing

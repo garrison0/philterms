@@ -8,9 +8,9 @@ related:
   - mental-content
   - meaning
 ---
-The **format** of a [mental representation](/posts/mental-representation/) is its structure. Format is opposed to [content](/posts/mental-content/). A format has content in the same way as a word has meaning.
+The **format** of a [mental representation](/posts/mental-representation/) is its structure. Format contrasts with [content](/posts/mental-content/). A format has content in the same way as a word has meaning.
 
-A format can have many potential contents:
+A format can have more than one potential content:
 
 | format                                                                                                | potential contents                                                                                                                                                                                                                                                                                                                                                                                   |
 | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@ A format can have many potential contents:
 | This sound: <audio controls> <source src="/uploads/empedocles-leaped.wav" type="audio/wav" /></audio> | <ul> <li>In English: Empedocles *leaped*.</li> <li>In German: Empedocles *liebt*. (translation: Empedocles loves)</li> </ul>                                                                                                                                                                                                                                                                         |
 | This sound: <audio controls> <source src="/uploads/db-major.wav" type="audio/wav" /></audio>          | <ul> <li>The Neapolitan chord in C major<audio controls> <source src="/uploads/neapolitan-in-c-major.wav" type="audio/wav" /></audio></li> <li>The bII in C minor phrygian <audio controls> <source src="/uploads/bii-in-c-phrygian.wav" type="audio/wav" /></audio></li> <li>The tonic in Db major<audio controls> <source src="/uploads/db-major-tonic.wav" type="audio/wav" /></audio></li> </ul> |
 
-And a content can have many potential formats:
+And a content can have more than one potential format:
 
 | content                                                                                      | potential formats                                                                                                                                                                                                           |
 | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
