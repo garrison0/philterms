@@ -13,16 +13,8 @@ Table of contents
 
 <!--ts-->
    * [About](#about)
-   * [Usage](#usage)
-      * [STDIN](#stdin)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-      * [Auto insert and update TOC](#auto-insert-and-update-toc)
-      * [GitHub token](#github-token)
-      * [TOC generation with Github Actions](#toc-generation-with-github-actions)
-   * [Tests](#tests)
+   * [Contribute](#contribute)
+   * [License](#license)
 <!--te-->
 
 About
@@ -46,4 +38,5 @@ We aim to accompany the [Stanford Encyclopedia of Philosophy](https://plato.stan
 
 ## License
 
-..
+Philosophy Terms is licensed under the [GNU General Public License v3.0](https://github.com/garrison0/philterms/blob/master/LICENSE)
+
