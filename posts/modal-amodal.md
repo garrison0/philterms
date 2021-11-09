@@ -2,7 +2,7 @@
 title: modal / amodal
 excerpt: In psychology, a modality is a medium of sensation, such as vision or
   hearing. A concept is modal if it has the same mental representation as
-  sensation.
+  sensation
 date: 2021-11-04T18:40:18.870Z
 related:
   - concept
