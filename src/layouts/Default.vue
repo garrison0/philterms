@@ -258,7 +258,7 @@ nav {
 .footer { 
   text-align: center;
   margin: 20px;
-  opacity: 70%;
+  opacity: .7;
 }
 
 </style>
