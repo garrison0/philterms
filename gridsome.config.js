@@ -1,6 +1,6 @@
 module.exports = {
   siteName: 'Philosophy Terms',
-  siteUrl: 'http://localhost:8080',
+  siteUrl: 'https://philterms.org',
 
   templates: { 
     Post: [ 
