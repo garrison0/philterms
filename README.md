@@ -12,12 +12,12 @@ Table of contents
 =================
 
 <!--ts-->
-   * [About us](#about)
+   * [About us](#about-us)
    * [Help contribute](#help-contribute)
    * [License](#license)
 <!--te-->
 
-About
+About us
 =================
 
 Philosophy Terms makes philosophical jargon easy to understand. Philosophy has hundreds of complicated terms. For each term, we explain:
