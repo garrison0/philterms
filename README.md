@@ -12,8 +12,8 @@ Table of contents
 =================
 
 <!--ts-->
-   * [About](#about)
-   * [Contribute](#contribute)
+   * [About us](#about)
+   * [Help contribute](#help-contribute)
    * [License](#license)
 <!--te-->
 
@@ -32,11 +32,13 @@ We follow the [Google Developer Documentation Style Guide](https://developers.go
 
 We aim to accompany the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/).
 
-## Help contribute
+Help contribute
+==================
 
 ..
 
-## License
+License
+==================
 
-Philosophy Terms is licensed under the [GNU General Public License v3.0](https://github.com/garrison0/philterms/blob/master/LICENSE)
+Philosophy Terms is licensed under the [GNU General Public License v3.0](https://github.com/garrison0/philterms/blob/master/LICENSE).
 
