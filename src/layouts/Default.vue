@@ -20,7 +20,7 @@
       <slot/>
     </div>
     <div class="footer">
-      <small>An open source project by <g-link to="https://www.moodmusic.me">Garrison McMullen</g-link> </small>
+      <small>An open source project by <g-link to="https://www.garrison.fyi">Garrison McMullen</g-link> </small>
     </div>
   </div>
 </template>
