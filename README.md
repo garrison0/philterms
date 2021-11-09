@@ -1,4 +1,32 @@
-# Philosophy Terms
+<div align="center">
+  <a href="https://philterms.org">
+    <img width="320px" src="https://user-images.githubusercontent.com/4089393/140973738-19f8d9a9-5271-4407-acc2-039adb2c9cdd.png" /> 
+  </a>
+
+  <em align="center"> Find simple definitions </em>
+</div>
+
+<h1 />
+
+Table of contents
+=================
+
+<!--ts-->
+   * [About](#about)
+   * [Usage](#usage)
+      * [STDIN](#stdin)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+      * [Auto insert and update TOC](#auto-insert-and-update-toc)
+      * [GitHub token](#github-token)
+      * [TOC generation with Github Actions](#toc-generation-with-github-actions)
+   * [Tests](#tests)
+<!--te-->
+
+About
+=================
 
 Philosophy Terms makes philosophical jargon easy to understand. Philosophy has hundreds of complicated terms. For each term, we explain:
 
@@ -12,15 +40,10 @@ We follow the [Google Developer Documentation Style Guide](https://developers.go
 
 We aim to accompany the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/).
 
-## Contributing
+## Help contribute
 
-### 1. Install Gridsome CLI tool if you don't have
+..
 
-`npm install --global @gridsome/cli`
+## License
 
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+..
