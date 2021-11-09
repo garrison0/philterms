@@ -7,29 +7,29 @@ related:
   - format
   - qualia
 ---
-Mental representations are hypothetical objects in the mind that represent the world. Mental representations traditionally explain three related things: 
+Mental representations are hypothetical objects in the mind that represent the world. Mental representations traditionally explain three related things:
 
-### 1. some (or all) mental states have \[intentionality](...). 
+### 1. some (or all) mental states have [intentionality](/posts/intentionality/)
 
 Intentionality begs for an explanation. A *representationalist* argues that, when you believe 'the earth is flat':
 
 * your mental state is *belief*
 * you, in your state of belief, relate to a mental representation
-* the mental representation's \[content](...) is that *the earth is flat*.
+* the mental representation's [content](/posts/mental-content/) is that *the earth is flat*.
 
-### 2. you can imagine. 
+### 2. you can imagine
 
-The ability to imagine a banana without directly perceiving a banana implies that the mind has a *stored representation* of bananas. 
+The ability to imagine a banana without directly perceiving a banana implies that the mind has a *stored representation* of bananas.
 
-### 3. you can perceive illusions and hallucinations. 
+### 3. you can perceive illusions and hallucinations
 
 An illusion is just a perception that is false. If you did not perceive through mental representations, how could a perception be false?
 
-Some philosophers work extensively with cognitive science research. These philosophers typically distinguish between a mental representation's \[format](...) and its \[content](...). They use this distinction to argue about:
+Some philosophers work extensively with cognitive science research. These philosophers typically distinguish between a mental representation's [format](/posts/format/) and its [content](/posts/mental-content/). They use this distinction to argue about:
 
 * the nature of concepts
-* the nature of \[qualia](...)
+* the nature of [qualia](/posts/qualia/)
 * the existence of non-conceptual representations
 * the difference between thinking and seeing
 
-And so on.
+Among other topics.

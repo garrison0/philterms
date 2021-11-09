@@ -1,10 +1,10 @@
 ---
 title: meaning
 excerpt: When I say to you, "I'm going on a walk," you understand me. Whatever
-  you understand is the **meaning** of the sentence "I'm going on a walk."
+  you understand is the meaning of the sentence "I'm going on a walk."
 date: 2021-11-05T02:58:48.385Z
 related:
-  - content
+  - mental-content
 ---
 You understand me when I say "I'm going on a walk." Whatever you understand is the **meaning** of the sentence "I'm going on a walk." You might ask these questions:
 

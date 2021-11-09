@@ -10,7 +10,7 @@ Concepts are fundamental to thought. "Concept" comes from the Latin word "concep
 
 Philosophers disagree about the nature of concepts. Some proposals are:
 
-* [intensions](...)
+* [intensions](/posts/intension-extension/)
 * mental representations of categories
 * discriminatory abilities
 

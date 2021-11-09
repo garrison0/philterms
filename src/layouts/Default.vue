@@ -146,8 +146,24 @@ li img {
   margin: 5px 0;
 }
 
-li > :not(em) {
+li > :not(em, a) {
   vertical-align: middle;
+}
+
+.caption { 
+  display: flex;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+.caption img { 
+  margin: auto;
+  max-width: 100%;
+  width: 300px;
+}
+
+.caption em { 
+  width: 100%
 }
 
 .push-button {

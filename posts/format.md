@@ -7,7 +7,7 @@ related:
   - mental-content
   - meaning
 ---
-The **format** of a \[mental representation](...) is its structure. Format is opposed to \[content](...). A format has content in the same way as a word has meaning.
+The **format** of a [mental representation](/posts/mental-representation/) is its structure. Format is opposed to [content](/posts/mental-content/). A format has content in the same way as a word has meaning.
 
 A format can have many potential contents:
 

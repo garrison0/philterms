@@ -5,9 +5,10 @@
       <div class="content-container" v-html="$page.post.content"></div>
       <div class="related-terms" v-if="$page.post.related && $page.post.related.length"> 
         Related terms: 
-        <a @click="clickTerm(term)" v-for="(term, index) in $page.post.related" :key="index">
-          {{term}}
-        </a>
+        <span v-for="(term, index) in $page.post.related" :key="index">
+          <a @click="clickTerm(term)">{{term | formatTerm}}</a>
+          <span v-if="index !== $page.post.related.length-1">, </span>
+        </span>
       </div>
       <div class="post-footer">
         <Citations :post="$page.post" />
@@ -23,6 +24,7 @@ query ($id: ID!) {
     date
     title
     content
+    related
     authors { 
       firstName
       lastName

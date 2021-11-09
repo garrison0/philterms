@@ -22,6 +22,12 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout);
   Vue.component('font-awesome', FontAwesomeIcon);
 
+  Vue.filter('formatTerm', function(value) {
+    if (value) {
+      return value.replace('-', ' ');
+    }
+  });
+
   Vue.filter('formatDate', function(value) {
     if (value) {
       return moment(String(value)).format('MM/DD/YYYY')
