@@ -4,7 +4,7 @@
       <div class="header-bar" />
       <div class="header-inner">
         <div class="site-title">
-          <g-link to="/"> <g-image src="~/title.png" width="250"/> </g-link>
+          <g-link to="/"> <img src="../title.png" width="250" /> </g-link>
         </div>
         <SearchBar v-if="$route.path !== '/'" :posts="$static.posts" />
         <nav class="nav">
