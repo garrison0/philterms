@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/github/license/garrison0/philterms" />
   <img src="https://img.shields.io/netlify/a488a1a3-3de7-4bae-8cae-1c579ac42d03" />
   <img src="https://img.shields.io/github/contributors/garrison0/philterms" />
+  <a href="#help-contribute"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" /></a>
 </p>
 
 <h1 />
@@ -21,6 +22,8 @@ Table of contents
 <!--ts-->
    * [About us](#about-us)
    * [Help contribute](#help-contribute)
+     * [Contribute definitions](#contribute-definitions)
+     * [Contribute code](#contribute-code)
    * [License](#license)
 <!--te-->
 
@@ -42,7 +45,27 @@ We aim to accompany the [Stanford Encyclopedia of Philosophy](https://plato.stan
 Help contribute
 ==================
 
-..
+Contributions are welcome!
+
+Contribute definitions 
+----------------------
+
+### The easy way
+
+Use netflix CMS
+
+### The usual way
+
+Fork this repo
+Add posts to /posts/
+Submit a merge request
+
+
+Contribute code
+-------------------
+
+Feel free to request features, open pull requests, and so on.
+
 
 License
 ==================
