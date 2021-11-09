@@ -1,6 +1,7 @@
 ---
 title: format
-excerpt: format
+excerpt: The format of a mental representation is its structure. Format is
+  opposed to content
 date: 2021-11-05T04:41:25.530Z
 related:
   - mental-representation
