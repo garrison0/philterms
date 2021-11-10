@@ -13,3 +13,5 @@ For example, "mereology" means "the study of parts and wholes," but why does any
 We follow the [Google Developer Documentation Style Guide](https://developers.google.com/style/) and we target a **high-school reading level**.
 
 We aim to accompany the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/).
+
+To contribute to Philosophy Terms, [visit Philosophy Terms on GitHub](https://github.com/garrison0/philterms#help-contribute).
