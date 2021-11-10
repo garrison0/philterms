@@ -22,12 +22,12 @@ Table of contents
 <!--ts-->
    * [About us](#about-us)
    * [Help contribute](#help-contribute)
-     * [Contribute definitions](#contribute-definitions)
+     * [Contribute term definitions](#contribute-term-definitions)
      * [Contribute code](#contribute-code)
    * [License](#license)
 <!--te-->
 
-About us
+#About us
 =================
 
 Philosophy Terms makes philosophical jargon easy to understand. Philosophy has hundreds of complicated terms. For each term, we explain:
@@ -42,32 +42,56 @@ We follow the [Google Developer Documentation Style Guide](https://developers.go
 
 We aim to accompany the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/).
 
-Help contribute
+Philosophy Terms is built with [Gridsome](https://gridsome.org/) and [Netlify CMS](https://www.netlifycms.org/).
+
+#Help contribute
 ==================
 
 Contributions are welcome!
 
-Contribute definitions 
+Contribute term definitions 
 ----------------------
 
-### The easy way
+Thanks to Netlify CMS and [open authoring](https://www.netlifycms.org/docs/open-authoring/), all you need to contribute is a GitHub account: 
 
-Use netflix CMS
+1. Visit [https://philterms.org/admin](https://philterms.org/admin)
+2. Log in with your GitHub account
+3. Authorize philterms
+4. Click ‘Fork the repo’*
+5. Click ‘New Posts’ to create a new post
+6. Fill out all the fields to the left--to the right is a preview of your post
+7. Change the status to ‘in review’ once you’re done
 
-### The usual way
+**this is so you can make changes without messing up the original website*
 
-Fork this repo
-Add posts to /posts/
-Submit a merge request
+That’s it! Now we can review your changes.
+
+If you're more familiar with git and wish to preview your changes, follow these steps:
+
+1. Install the [Gridsome CLI](https://github.com/gridsome/gridsome#quick-start)
+2. Clone your fork
+3. Run ```npm install``` in the repository root
+4. Run ```gridsome develop``` 
+5. Visit ```http://localhost:8080``` to see your changes
+
+Additionally, you can use the command line [vale](https://github.com/errata-ai/vale) linter to check your post for style errors:
+
+1. Install [vale](https://docs.errata.ai/vale/install)
+2. Run ```vale posts/(YOUR_POST_HERE)```
+
+Philosophy Terms uses the [```Google``` and ```write-good```](https://github.com/errata-ai/styles) style guides. Posts do not have to have perfect style. Simplicity comes first.
+
+To check all posts for style, run ```vale --ext=.md posts```.
 
 
 Contribute code
 -------------------
 
-Feel free to request features, open pull requests, and so on.
+Feel free to request features, open pull requests, report bugs, and so on.
 
+To learn more about contributing to open source, [watch these videos](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
-License
+#License
 ==================
 
 Philosophy Terms is licensed under the [GNU General Public License v3.0](https://github.com/garrison0/philterms/blob/master/LICENSE).
