@@ -1,10 +1,9 @@
 <div align="center">
   <a href="https://philterms.org">
-    <img width="320px" src="https://user-images.githubusercontent.com/4089393/140973738-19f8d9a9-5271-4407-acc2-039adb2c9cdd.png" /> 
+    <img width="320px" src="https://user-images.githubusercontent.com/4089393/141154344-eb911bf2-047b-42bf-b607-5f3564ea3e7a.png" /> 
   </a>
 
   <em align="center"> Find simple definitions </em>
-  
 </div>
 
 <p align="center">
