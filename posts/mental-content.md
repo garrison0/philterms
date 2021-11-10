@@ -7,6 +7,9 @@ related:
   - meaning
   - format
   - mental-representation
+authors:
+  - firstName: Garrison
+    lastName: McMullen
 ---
 *Content* comes from the Latin word "contentus" meaning "contained." A **mental content** is a *content* of a mental state; mental states contain mental contents. Your mental state is your state of mind. Your mental state may be:
 

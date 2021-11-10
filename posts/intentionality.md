@@ -5,6 +5,9 @@ date: 2021-11-08T19:16:29.281Z
 related:
   - mental-content
   - mental-representation
+authors:
+  - firstName: Garrison
+    lastName: McMullen
 ---
 Mental states can be *about* things. They *concern* or *refer to*:
 

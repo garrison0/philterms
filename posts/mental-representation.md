@@ -7,6 +7,9 @@ related:
   - mental-content
   - format
   - qualia
+authors:
+  - firstName: Garrison
+    lastName: McMullen
 ---
 Mental representations are hypothetical objects in the mind that represent the world. Mental representations traditionally explain three related things:
 

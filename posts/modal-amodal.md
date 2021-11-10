@@ -8,6 +8,9 @@ related:
   - concept
   - mental-content
   - mental-representation
+authors:
+  - firstName: Garrison
+    lastName: McMullen
 ---
 In psychology, a *modality* is [a medium of sensation, such as vision or hearing](https://dictionary.apa.org/modality). A [concept](/posts/concept/) is modal if it has the same [mental representation](/posts/mental-representation/) as sensation.
 

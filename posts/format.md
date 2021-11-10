@@ -7,6 +7,9 @@ related:
   - mental-representation
   - mental-content
   - meaning
+authors:
+  - firstName: Garrison
+    lastName: McMullen
 ---
 The **format** of a [mental representation](/posts/mental-representation/) is its structure. Format contrasts with [content](/posts/mental-content/). A format has content in the same way as a word has meaning.
 

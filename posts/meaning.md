@@ -4,6 +4,9 @@ excerpt: You understand what it means when someone says "canaries sing songs." W
 date: 2021-11-05T02:58:48.385Z
 related:
   - mental-content
+authors:
+  - firstName: Garrison
+    lastName: McMullen
 ---
 You understand what it means when someone says "canaries sing songs." Whatever you understand is the **meaning** of the sentence "canaries sing songs." You might wonder:
 

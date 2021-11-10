@@ -5,6 +5,9 @@ date: 2021-11-04T02:09:18.992Z
 related:
   - meaning
   - mental-content
+authors:
+  - firstName: Garrison
+    lastName: McMullen
 ---
 The **intension** of a term is its meaning. Intension contrasts with **extension**. The extension of a term is whatever it picks out.
 
