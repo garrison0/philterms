@@ -2,6 +2,9 @@
 title: intentionality
 excerpt: Intentionality refers to the aboutness of mental states
 date: 2021-11-08T19:16:29.281Z
+related:
+  - mental-content
+  - mental-representation
 ---
 Mental states can be *about* things. They *concern* or *refer to*:
 
