@@ -78,15 +78,15 @@ Additionally, you can use the command line [vale](https://github.com/errata-ai/v
 1. Install [vale](https://docs.errata.ai/vale/install)
 2. Run ```vale posts/(YOUR_POST_HERE)```
 
-Philosophy Terms uses the [```Google``` and ```write-good```](https://github.com/errata-ai/styles) style guides. Posts do not have to have perfect style. Simplicity comes first.
-
 To check all posts for style, run ```vale --ext=.md posts```.
+
+Philosophy Terms uses the [```Google``` and ```write-good```](https://github.com/errata-ai/styles) style guides. Posts do not have to have perfect style. Simplicity comes first.
 
 
 Contribute code
 -------------------
 
-Feel free to request features, open pull requests, report bugs, and so on.
+Feel free to report bugs, request features, open pull requests, and so on.
 
 To learn more about contributing to open source, [watch these videos](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
