@@ -58,7 +58,7 @@ Thanks to Netlify CMS and [open authoring](https://www.netlifycms.org/docs/open-
 3. Authorize philterms
 4. Click ‘Fork the repo’*
 5. Click ‘New Posts’ to create a new post
-6. Fill out all the fields to the left--to the right is a preview of your post
+6. Fill out all the fields to the left (the right side displays a preview of your post)
 7. Change the status to ‘in review’ once you’re done
 
 **this is so you can make changes without messing up the original website*
