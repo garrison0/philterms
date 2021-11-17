@@ -54,7 +54,7 @@ export default {
   },
   computed: {
     pagesArray() { 
-      return [...Array(Math.floor(this.posts.length / this.numPerPage)).keys()];
+      return [...Array(Math.ceil(this.posts.length / this.numPerPage)).keys()];
     },
     sortedPosts() {
       switch (this.currentOption) { 
@@ -99,7 +99,7 @@ export default {
     },
     shiftPageBy(n) { 
       let m = this.currentPage + n;
-      if (m >= 0 && m < Math.floor(this.posts.length / this.numPerPage))
+      if (m >= 0 && m < Math.ceil(this.posts.length / this.numPerPage))
         this.currentPage = m;
     }
   }
