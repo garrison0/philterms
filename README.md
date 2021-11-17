@@ -54,16 +54,16 @@ Contribute term definitions
 Thanks to Netlify CMS and [open authoring](https://www.netlifycms.org/docs/open-authoring/), all you need to contribute is a GitHub account: 
 
 1. Visit [https://philterms.org/admin](https://philterms.org/admin)
-2. Log in with your GitHub account
+2. Login with your GitHub account
 3. Authorize philterms
-4. Click ‘Fork the repo’*
-5. Click ‘New Posts’ to create a new post
-6. Fill out all the fields to the left--to the right is a preview of your post
-7. Change the status to ‘in review’ once you’re done
+4. Click **Fork the repo***
+5. Click **New Posts** to create a new post
+6. Fill out all the fields to the left (the right side displays a preview of your post)
+7. Change the status to *in review* once you’re done
 
 **this is so you can make changes without messing up the original website*
 
-That’s it! Now we can review your changes.
+🎉 That’s it! Now we can review your changes.
 
 If you're more familiar with git and wish to preview your changes, follow these steps:
 
@@ -86,7 +86,7 @@ Philosophy Terms uses the [```Google``` and ```write-good```](https://github.com
 Contribute code
 -------------------
 
-Feel free to report bugs, request features, open pull requests, and so on.
+Philosophy Terms is early in development. Feel free to report bugs, request features, open pull requests, and so on.
 
 To learn more about contributing to open source, [watch these videos](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
