@@ -1,5 +1,5 @@
 <template>
-  <div class="tabs-container">
+  <div class="citations-container">
     <div class="tabs">
       <div class="tab push-button" 
             v-for="(style, index) in Object.values(citationStylesEnum)" :key="index"
@@ -73,7 +73,7 @@ query {
 
 <style>
 
-.tabs-container { 
+.citations-container { 
   flex: 2;
 }
 
@@ -83,6 +83,7 @@ query {
   border-radius: 4px;
   font-weight: bold;
   user-select: none;
+  margin-right: 10px;
 }
 
 .tabs .tab:nth-child(n+2) {

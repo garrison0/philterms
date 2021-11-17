@@ -128,6 +128,11 @@ export default {
   body .post-footer { 
     display: inherit!important;
   }
+
+  body .post-footer small { 
+    margin-top: 10px;
+    display: inline-block;
+  }
 }
 
 body {
@@ -265,7 +270,7 @@ li > :not(em, a) {
 }
 
 .light-up:hover { 
-  background: var(--main-fg-color);
+  background: var(--main-fg-color)!important;
   color: var(--main-highlight-color);
   cursor: pointer;
 }
