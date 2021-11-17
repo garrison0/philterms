@@ -50,7 +50,7 @@ export default {
 
 .content-container { 
   padding: 10px 0;
-  border-bottom: 1px solid rgb(57,57,57);
+  border-bottom: 1px solid var(--main-border-color);
 }
 
 .post-footer { 
@@ -70,26 +70,20 @@ small {
 
 a { 
   transition: color .3s, text-decoration-color .4s;
-  color: #ceb983;
+  color: var(--main-highlight-color);
   text-decoration: underline;
-  text-decoration-color: rgb(57,57,57);
+  text-decoration-color: var(--main-border-color);
 }
 
 a:hover { 
-  color: #ebf4f1;
+  color: var(--main-text-color);
   cursor: pointer;
-  text-decoration-color: #ebf4f1;
-}
-
-.post-container { 
-  background: #16181f;
-  padding: 25px 45px;
+  text-decoration-color: var(--main-text-color);
 }
 
 h1 { 
-  font-size: 2.5rem;
   margin: 0;
-  border-bottom: 1px solid rgb(57,57,57);
+  border-bottom: 1px solid var(--main-border-color);
 }
 
 </style>

@@ -3,8 +3,13 @@
     <header class="header">
       <div class="header-bar" />
       <div class="header-inner">
-        <div class="site-title">
-          <g-link to="/"> <img src="../title.png" width="250" /> </g-link>
+        <div class="site-title" :class="{'hide': $route.path !== '/'}">
+          <g-link to="/"> 
+            <picture>
+              <source media="(min-width: 750px)" srcset="../title.png">
+              <img src="../title-small.png" class="header-icon"> 
+            </picture>
+          </g-link>
         </div>
         <SearchBar v-if="$route.path !== '/'" :posts="$static.posts" />
         <nav class="nav">
@@ -58,13 +63,76 @@ export default {
 </script>
 
 <style>
+:root { 
+  --main-bg-color: #16181f;
+  --main-mg-color: #1f232d;
+  --main-fg-color: #3a4255;
+  --main-text-color: #ebf4f1;
+  --main-highlight-color: #ceb983;
+  --main-border-color: rgb(57,57,57);
+}
+
+@media screen and (max-width: 750px) { 
+  body .layout { 
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  body .header-inner { 
+    padding: 0 20px;
+  }
+
+  body .post-container { 
+    padding: 25px!important;
+  }
+
+  body ul { 
+    padding-left: 20px;
+  }
+
+  body { 
+    font-size: 14px;
+  }
+
+  body h1 { 
+    font-size: 2.0em!important;
+  }
+
+  body th { 
+    font-size: 16px;
+  }
+
+  body tbody { 
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 475px) { 
+  body .layout { 
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  body .header-inner { 
+    padding: 0 12px;
+  }
+
+  body .post-container { 
+    padding: 10px!important;
+  }
+
+  body .site-title.hide { 
+    display: none;
+  }
+}
+
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
   padding:0;
   line-height: 1.5;
-  background: #1f232d;
-  color: #ebf4f1;
+  background: var(--main-mg-color);
+  color: var(--main-text-color);
   text-decoration: none;
 }
 
@@ -77,23 +145,23 @@ body {
 }
 
 a { 
-  color: #ceb983;
+  color: var(--main-highlight-color);
   text-decoration: underline;
-  text-decoration-color: rgb(57,57,57);
+  text-decoration-color: var(--main-border-color);
   transition: color .3s, text-decoration-color .4s;
 }
 
 a:hover { 
-  color: #ebf4f1;
+  color: var(--main-text-color);
   cursor: pointer;
-  text-decoration-color: #ebf4f1;
+  text-decoration-color: var(--main-text-color);
 }
 
 table { 
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
-  border-top: 1px solid rgb(57,57,57);
+  border-top: 1px solid var(--main-border-color);
 }
 
 tbody { 
@@ -101,15 +169,15 @@ tbody {
 }
 
 tr:first-child {
-  border-top: rgb(57,57,57);
+  border-top: var(--main-border-color);
 }
 
 tr {
-  border-bottom: rgb(57,57,57);
+  border-bottom: var(--main-border-color);
 }
 
 th { 
-  background: #1f232d;;
+  background: var(--main-mg-color);;
   height: 60px;
   padding: 0 12px;
   vertical-align: middle;
@@ -118,7 +186,7 @@ th {
 }
 
 td { 
-  border: 1px solid rgb(57,57,57);
+  border: 1px solid var(--main-border-color);
   border-left: none;
   border-right: none;
   padding: 16px 12px;
@@ -130,8 +198,9 @@ td:nth-child(2n+1) {
 }
 
 audio { 
-  background: #ceb983;
+  background: var(--main-highlight-color);
   margin: 5px 0;
+  width: 100%;
 }
 
 td ul {
@@ -166,44 +235,49 @@ li > :not(em, a) {
   width: 100%
 }
 
+.post-container { 
+  background: var(--main-bg-color);
+  padding: 25px 45px;
+}
+
 .push-button {
-  background: #3a4255;
+  background: var(--main-fg-color);
   cursor: pointer;
   transition: background .3s;
 }
 
 .push-button:hover { 
-  background: #1f232d;
+  background: var(--main-mg-color);
 }
 
 .push-button:active, .tab[aria-selected="true"] {
-  background-color: #16181f;
+  background-color: var(--main-bg-color);
 }
 
 .light-up { 
   transition: background .3s, color .3s, transform .3s;
   text-decoration: none;
-  color: #ebf4f1;
+  color: var(--main-text-color);
 }
 
 .light-up:hover { 
-  background: #3a4255;
-  color: #ceb983;
+  background: var(--main-fg-color);
+  color: var(--main-highlight-color);
   cursor: pointer;
 }
 
 .light-up:active {
-    background: #1f232d;
+    background: var(--main-mg-color);
 }
 
 .header {
   position: fixed;
   display: block;
-  border-bottom: 1px solid rgb(25,25,25);
+  border-bottom: 1px solid var(--main-border-color);
   height: 60px;
   width: 100%;
   z-index: 9999;
-  background: #1f232dDD;
+  background: var(--main-mg-color);
 }
 
 .header-bar {
@@ -228,6 +302,13 @@ li > :not(em, a) {
   align-items: center;
 }
 
+.header-icon { 
+  height: 60px;
+  max-width: 250px;
+  object-fit: contain;
+  display: flex;
+}
+
 .site-title { 
   flex: 1;
   margin-right: 5px;
@@ -242,11 +323,13 @@ nav {
   display: flex;
   justify-content: flex-end;
   height: 100%;
+  padding-left: 5px;
 }
 
 .nav-link {
   flex: 1;
   display: flex;
+  min-width: 50px;
   max-width: 75px;
   align-items: center;
   justify-content: center;

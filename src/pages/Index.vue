@@ -60,8 +60,8 @@ export default {
   max-width: 150px;
   font-weight: bold;
   padding: 20px 25px;
-  border: 1px solid rgb(57,57,57);
-  background: #16181f;
+  border: 1px solid var(--main-border-color);
+  background: var(--main-bg-color);
 }
 
 </style>

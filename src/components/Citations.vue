@@ -79,14 +79,14 @@ query {
 
 .tabs { 
   display: inline-flex;
-  border: 2px solid rgb(57,57,57);
+  border: 2px solid var(--main-border-color);
   border-radius: 4px;
   font-weight: bold;
   user-select: none;
 }
 
 .tabs .tab:nth-child(n+2) {
-  border-left: 2px solid rgb(57,57,57);
+  border-left: 2px solid var(--main-border-color);
 }
 
 .tab {
@@ -96,7 +96,7 @@ query {
 .citation { 
   margin-top: 10px;
   padding: 10px 20px;
-  border: 2px solid rgb(57,57,57);
+  border: 2px solid var(--main-border-color);
   border-radius: 3px;
 }
 

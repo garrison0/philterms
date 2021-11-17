@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="about-container">
+    <div class="post-container">
       <h1>{{$page.pages.edges[0].node.title}}</h1>
       <div class="content-container" v-html="$page.pages.edges[0].node.content"></div>
       <div class="date-container">
@@ -44,18 +44,14 @@ export default {
 </script>
 
 <style scoped>
-.about-container { 
-  background: #16181f;
-  padding: 25px 45px;
-}
 h1 { 
-  font-size: 2.5rem;
   margin: 0;
-  border-bottom: 1px solid rgb(57,57,57);
+  border-bottom: 1px solid var(--main-border-color);
 }
+
 .content-container { 
   padding: 10px 0;
-  border-bottom: 1px solid rgb(57,57,57);
+  border-bottom: 1px solid var(--main-border-color);
 }
 
 .date-container { 

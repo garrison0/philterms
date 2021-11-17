@@ -20,7 +20,7 @@
         <li class="autocomplete-result" v-bind:class="{ 'autocomplete-selected': currentItem == index }" 
             v-for="(post, index) in matchingPosts" :key="post.node.id"
             @click="submitAutocomplete(post)">
-            <div v-html="highlight(post.node.title)"></div>
+            <div style="overflow:hidden; text-overflow:ellipsis" v-html="highlight(post.node.title)"></div>
         </li>
       </ul>
     </form>
@@ -94,22 +94,21 @@ export default {
 </script>
 
 <style>
-
 .autocomplete-results {
   width: 99.8%; /* 100% does not line up - ? */
   position: absolute;
   font-size: 1.0em;
-  background: #1f232d;
+  background: var(--main-mg-color);
   list-style: none;
   text-align: left;
   margin-top: 3.0rem;
   z-index: 2;
   padding: 0;
-  background: #16181f;
+  background: var(--main-bg-color);
 }
 
 .autocomplete-border { 
-  border: 1px solid rgb(57,57,57);
+  border: 1px solid var(--main-border-color);
   border-top: none;
 }
 
@@ -118,16 +117,16 @@ export default {
 }
 
 .autocomplete-result:hover { 
-  background: #3a4255;
+  background: var(--main-fg-color);
   cursor: pointer;
 }
 
 .autocomplete-selected { 
-  background: #3a4255;
+  background: var(--main-fg-color);
 }
 
 .highlight {
-  color: #ceb983;
+  color: var(--main-highlight-color);
   font-weight: bold;
 }
 
@@ -136,7 +135,7 @@ export default {
   flex: 2;
   margin: auto;
 
-  background: #16181f;
+  background: var(--main-bg-color);
   height: 3.0rem;
   width: 500px;
   max-width: 100%;
@@ -153,7 +152,7 @@ form {
   flex: 1;
   padding: 2px 6px;
 
-  border: 1px solid rgb(57,57,57);
+  border: 1px solid var(--main-border-color);
   border-right: none;
 }
 
@@ -167,14 +166,14 @@ input {
 }
 
 .input-container:focus-within { 
-  border: 1px solid #ceb983;
+  border: 1px solid var(--main-highlight-color);
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
 }
 
 .clear-button { 
   width: 46px;
   display: flex;
-  z-index: 1;
+  z-index: 5;
 }
 
 .clear-link { 
@@ -224,7 +223,7 @@ input {
   color: #fff;
 }
 .hoverCircle.effect.sub-b:hover, .hoverCircle.effect-3.sub-b:hover i {
-  color: #1f232d;
+  color: var(--main-mg-color);
 }
 .hoverCircle.effect.sub-b:after {
   -webkit-transform: scale(1.3);
@@ -242,7 +241,7 @@ input {
 }
 
 button {
-  border: 1px solid rgb(57,57,57);
+  border: 1px solid var(--main-border-color);
   border-radius: 0 2px 2px 0;
   width: 3rem;
   color: inherit;
@@ -252,8 +251,8 @@ button {
 }
 
 button:hover { 
-  color: #ceb983;
-  background: #3a4255;
+  color: var(--main-highlight-color);
+  background: var(--main-fg-color);
   cursor: pointer;
 }
 

@@ -24,8 +24,8 @@ export default {
 .card {
   padding: 45px;
   margin-bottom: 15px; 
-  border: 1px solid rgb(57,57,57);
-  background: #16181f;
+  border: 1px solid var(--main-border-color);
+  background: var(--main-bg-color);
   z-index: 1;
 }
 
@@ -36,16 +36,16 @@ export default {
 .post-link { 
   font-size: 1.5rem;
   font-weight: bold;
-  border-bottom: 1px solid rgb(57,57,57); 
+  border-bottom: 1px solid var(--main-border-color); 
   width: 100%;
 }
 
 .post-preview { 
-  color: #ebf4f1;
+  color: var(--main-text-color);
 }
 
 small { 
-  color: #ebf4f1;
+  color: var(--main-text-color);
 }
 
 </style>
