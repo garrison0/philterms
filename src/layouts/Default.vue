@@ -124,6 +124,10 @@ export default {
   body .site-title.hide { 
     display: none;
   }
+
+  body .post-footer { 
+    display: inherit!important;
+  }
 }
 
 body {
