@@ -1,6 +1,6 @@
 <template>
   <div @click="onClick" class="card light-up">
-    <div class="post-link">{{post.node.title}}</div>
+    <div class="post-link">{{index+1}}. {{post.node.title}}</div>
     <p class="post-preview">{{post.node.excerpt}}...</p>
     <small>Posted {{post.node.date | formatDate}}</small>
   </div>
@@ -10,7 +10,8 @@
 export default {
   name: 'Preview',
   props: {
-      post: Object
+    post: Object,
+    index: Number
   },
   methods: {
     onClick () {

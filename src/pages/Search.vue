@@ -2,9 +2,10 @@
   <Layout>
     <div v-if="matchingPosts.length">
       <h1>Results for "{{this.$route.query.query}}" </h1>
-      <div v-for="post in matchingPosts" :key="post.id">
+      <Pageinate :posts="matchingPosts" :numPerPage="5" />
+      <!-- <div v-for="post in matchingPosts" :key="post.id">
         <Preview :post="post" />
-      </div>
+      </div> -->
     </div>
     <div v-if="!matchingPosts.length">
       <h1>No results for "{{this.$route.query.query}}"</h1>

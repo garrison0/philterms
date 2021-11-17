@@ -4,7 +4,7 @@
       <div class="tab">Sort by: </div>
       <div class="tab push-button" 
             v-for="option in Object.keys(sortOptions)" :key="option"
-            @click="onClick(option)"
+            @click="onClickOption(option)"
             :aria-selected="option === currentOption">
         {{option}} 
         <font-awesome 
@@ -17,8 +17,22 @@
       Random term 
       <font-awesome :icon="['fa', 'random']" /> 
     </div>
-    <div v-for="post in sortedPosts" :key="post.node.id">
-      <Preview :post="post" style="margin-top: 15px;" />
+    <div v-for="(post, index) in paginatedPosts" :key="post.node.id">
+      <Preview :post="post" style="margin-top: 15px;" 
+               :index="index + currentPage*numPerPage" />
+    </div>
+    <div class="pagination">
+      <button @click="shiftPageBy(-1)">
+        &laquo;
+      </button>
+      <button v-for="n in pagesArray" :key="n"
+              @click="onClickPage(n)"
+              :class="{'active': n === currentPage}"> 
+        {{n+1}}
+      </button>
+      <button @click="shiftPageBy(1)">
+        &raquo;
+      </button>
     </div>
   </div>
 </template>
@@ -26,21 +40,26 @@
 <script>
 export default {
   props: {
-      posts: Object
+    posts: Array,
+    numPerPage: Number
   },
   data() { 
     const sortOptionsEnum = {'DATE': 'Date', 'TITLE': 'Title'};
     return {
       sortOptionsEnum: sortOptionsEnum,
       sortOptions: Object.values(sortOptionsEnum).reduce((o, key) => ({ ...o, [key]: 0}), {}),
-      currentOption: ''
+      currentOption: '',
+      currentPage: 0
     }
   },
   computed: {
+    pagesArray() { 
+      return [...Array(Math.floor(this.posts.length / this.numPerPage)).keys()];
+    },
     sortedPosts() {
       switch (this.currentOption) { 
         case this.sortOptionsEnum.DATE:
-          return this.posts.edges.sort( (a,b) => {
+          return this.posts.sort( (a,b) => {
             if ( this.sortOptions[this.currentOption] > 0 ) {
               return new Date(b.node.date) - new Date(a.node.date);
             } else { 
@@ -48,7 +67,7 @@ export default {
             }
           });
         case this.sortOptionsEnum.TITLE:
-          return this.posts.edges.sort( (a,b) => { 
+          return this.posts.sort( (a,b) => { 
             if ( this.sortOptions[this.currentOption] > 0 ) {
               return b.node.title.localeCompare(a.node.title);
             } else { 
@@ -56,20 +75,32 @@ export default {
             }
           });
         default:
-          return this.posts.edges;
+          return this.posts;
       }
+    },
+    paginatedPosts() { 
+      let n = this.currentPage * this.numPerPage;
+      return this.sortedPosts.slice(n, n + this.numPerPage)
     }
   },
   methods: {
-    onClick (option) {
+    onClickOption (option) {
       if (this.currentOption === option) { 
         this.sortOptions[option] = (this.sortOptions[option] + 1) % 2;
       }
       this.currentOption = option;
     },
     onClickRandom() { 
-      let index = Math.floor(Math.random() * this.$page.posts.edges.length);
-      this.$router.push( this.$page.posts.edges[index].node.path );
+      let index = Math.floor(Math.random() * this.posts.length);
+      this.$router.push( this.posts[index].node.path );
+    },
+    onClickPage(n) { 
+      this.currentPage = n;
+    },
+    shiftPageBy(n) { 
+      let m = this.currentPage + n;
+      if (m >= 0 && m < Math.floor(this.posts.length / this.numPerPage))
+        this.currentPage = m;
     }
   }
 }
@@ -94,6 +125,27 @@ svg {
   display: inline-block;
   margin-top: 10px;
   border-radius: 4px;
+}
+
+.pagination {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  background: var(--main-fg-color);
+  transition: background-color .3s;
+}
+
+.pagination button.active {
+  background-color: var(--main-highlight-color);
+  color: var(--main-mg-color);
+}
+
+.pagination button:hover:not(.active) {
+  background-color: var(--main-mg-color)
 }
 
 </style>

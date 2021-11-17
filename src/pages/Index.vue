@@ -7,7 +7,7 @@
         Find simple definitions
       </h3>
     </div>
-    <Pageinate :posts="$page.posts" />
+    <Pageinate :posts="$page.posts.edges" :numPerPage="5" />
   </Layout>
 </template>
 
