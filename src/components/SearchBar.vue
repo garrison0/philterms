@@ -1,14 +1,16 @@
 <template>
   <div class="searchbox">
     <form @submit.stop.prevent="submitSearch" 
-            @keydown.up.stop.prevent 
-            @keydown.down.stop.prevent
-            @keyup="this.nextItem"
-            @keydown.delete="currentItem = -1">
+          @keydown.up.stop.prevent 
+          @keydown.down.stop.prevent
+          @keyup="this.nextItem"
+          @keydown.delete="currentItem = -1">
       <div class="input-container">
-        <input type="text" v-model="searchTerm"
-                label="Search (e.g., de re, de dicto, ...)"
-                placeholder="Search (e.g., de re, de dicto, ...)"> 
+        <input type="text"
+          :value="searchTerm"
+          @input="e => searchTerm = e.target.value"
+          label="Search (e.g., de re, de dicto, ...)"
+          placeholder="Search (e.g., de re, de dicto, ...)"> 
         <div class="clear-button">
           <a class="clear-link hoverCircle effect sub-b" v-if="searchTerm !== ''"
               @click="resetInput">
@@ -45,7 +47,9 @@ export default {
   },
   computed: {
     matchingPosts: function () {
-      return this.searchTerm ? this.posts.edges.filter(edge => edge.node.title.includes(this.searchTerm)) : [];
+      return this.searchTerm 
+      ? this.posts.edges.filter(edge => edge.node.title.includes(this.searchTerm.toLowerCase())) 
+      : [];
     }
   },
   methods: {
@@ -242,6 +246,7 @@ input {
 
 .button-search { 
   border-radius: 0 2px 2px 0;
+  margin: 0;
 }
 
 button {
