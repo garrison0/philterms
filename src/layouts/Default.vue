@@ -257,14 +257,19 @@ li > :not(em, a) {
 
 .push-button:hover { 
   background: var(--main-mg-color);
+  color: var(--main-highlight-color);
 }
 
-.push-button:active, .tab[aria-selected="true"] {
+.push-button:active, 
+.tab[aria-selected="true"], 
+.push-button.active
+{
   background-color: var(--main-bg-color);
+  color: var(--main-highlight-color);
 }
 
 .light-up { 
-  transition: background .3s, color .3s, transform .3s;
+  transition: background .3s, color .3s;
   text-decoration: none;
   color: var(--main-text-color);
 }
@@ -276,7 +281,7 @@ li > :not(em, a) {
 }
 
 .light-up:active {
-    background: var(--main-mg-color);
+  background: var(--main-mg-color);
 }
 
 .header {

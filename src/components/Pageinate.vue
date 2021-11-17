@@ -13,7 +13,7 @@
         />
       </div>
     </div>
-    <div class="random-button light-up" @click="onClickRandom"> 
+    <div class="random-button push-button" @click="onClickRandom"> 
       Random term 
       <font-awesome :icon="['fa', 'random']" /> 
     </div>
@@ -22,15 +22,16 @@
                :index="index + currentPage*numPerPage" />
     </div>
     <div class="pagination">
-      <button @click="shiftPageBy(-1)">
+      <button @click="shiftPageBy(-1)" class="push-button">
         &laquo;
       </button>
       <button v-for="n in pagesArray" :key="n"
               @click="onClickPage(n)"
+              class="push-button"
               :class="{'active': n === currentPage}"> 
         {{n+1}}
       </button>
-      <button @click="shiftPageBy(1)">
+      <button @click="shiftPageBy(1)" class="push-button">
         &raquo;
       </button>
     </div>
@@ -120,7 +121,6 @@ svg {
   padding: 5px 25px;
   max-width: 150px;
   border: 2px solid var(--main-border-color);
-  background: var(--main-bg-color);
   text-align: center;
   display: inline-block;
   margin-top: 10px;
@@ -135,17 +135,6 @@ svg {
 
 .pagination button {
   padding: 8px 16px;
-  background: var(--main-fg-color);
-  transition: background-color .3s;
-}
-
-.pagination button.active {
-  background-color: var(--main-highlight-color);
-  color: var(--main-mg-color);
-}
-
-.pagination button:hover:not(.active) {
-  background-color: var(--main-mg-color)
 }
 
 </style>

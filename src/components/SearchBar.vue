@@ -25,7 +25,7 @@
       </ul>
     </form>
 
-    <button class="light-up" @click="submitSearch()">
+    <button class="push-button button-search" @click="submitSearch()">
       <font-awesome :icon="['fa', 'search']" />
     </button>
   </div>
@@ -240,20 +240,14 @@ input {
   opacity: 1;
 }
 
-button {
-  border: 1px solid var(--main-border-color);
+.button-search { 
   border-radius: 0 2px 2px 0;
-  width: 3rem;
-  color: inherit;
-  background: inherit;
-
-  transition: background .3s, color .3s;
 }
 
-button:hover { 
-  color: var(--main-highlight-color);
-  background: var(--main-fg-color);
-  cursor: pointer;
+button {
+  border: 1px solid var(--main-border-color);
+  width: 3rem;
+  color: inherit;
 }
 
 </style>
