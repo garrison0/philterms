@@ -11,7 +11,7 @@ authors:
   - firstName: Garrison
     lastName: McMullen
 ---
-**Mental representations** are hypothetical objects in the mind that represent the world. Mental representations traditionally explain three related things:
+**Mental representations** are hypothetical objects in the mind that represent the world. Mental representations explain three related problems:
 
 ### 1. Why do some (or all) mental states have [intentionality](/posts/intentionality/)?
 
@@ -21,23 +21,27 @@ A *representationalist* argues that, when you believe 'the earth is flat':
 * you, in your state of belief, relate to a mental representation
 * the mental representation's [content](/posts/mental-content/) is that *the earth is flat*.
 
-Your belief that 'the earth is flat' is *about* the earth because you're in relation to a mental representation whose content is that *the earth is flat*. Your relation to the mental representation explains the intentionality of your state of belief.
+Your belief that 'the earth is flat' is *about* the earth because you're in relation to a mental representation whose content is that *the earth is flat*. A representationalist thinks that the belief's intentionality is a side effect of having a mental representation with the content of the belief. 
 
-### 2. How can you *imagine?*
+### 2. How do you *imagine?*
 
 The ability to imagine a banana without directly perceiving a banana implies that the mind has a stored *mental representation* of bananas.
 
-### 3. How can you perceive illusions and hallucinations?
+### 3. Why do you perceive illusions and hallucinations?
 
 An illusion is a perception that's false. Consider the following Müller-Lyer illusion:
 
+<figure> 
 
+<img src="/uploads/muller-lyer.png">
 
- If you perceive the world directly while perceiving an illusion, then you're perceiving something about the world that is false. 
+<figcaption>The direction of the brackets affect the perceived length of the line</figcaption>
 
+</figure>
 
+Notice the length of the two horizontal line segments. The line segment in the bottom figure looks longer than the line segment in the top figure. The line segments are actually the same length. 
 
-How could you be directly perceiving reality while perceiving something false? If you directly perceive reality instead of perceiving reality through mental representations, how could a perception be false?
+Either you directly perceive reality or you indirectly perceive reality through *mental representations*. If you directly perceive reality, how could your perception of the line segments' lengths be false?
 
 Some philosophers work extensively with cognitive science research. These philosophers typically distinguish between a mental representation's [format](/posts/format/) and its [content](/posts/mental-content/). They use this distinction to argue about:
 
