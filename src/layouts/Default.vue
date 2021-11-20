@@ -244,6 +244,19 @@ li > :not(em, a) {
   width: 100%
 }
 
+figure { 
+  text-align: center;
+}
+
+figure img { 
+  max-width: 100%;
+  width: 300px;
+}
+
+figcaption { 
+  font-style: italic;
+}
+
 .post-container { 
   background: var(--main-bg-color);
   padding: 25px 45px;
