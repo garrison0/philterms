@@ -9,7 +9,7 @@ authors:
   - firstName: Garrison
     lastName: McMullen
 ---
-The **intension** of a term is its meaning. Intension contrasts with **extension**. The extension of a term is whatever it refers to. For example, 'Eiffel tower' refers to the physical structure in Paris. 
+The **intension** of a term is its meaning. Intension contrasts with **extension**. The extension of a term is whatever it refers to. For example, 'Eiffel Tower' refers to the physical structure in Paris. 
 
 A term's extension can differ from its intension. For example, Clark Kent and Superman refer to the same person, but these two sentences differ:
 
