@@ -51,3 +51,7 @@ Some philosophers work extensively with cognitive science research. These philos
 * the difference between thinking and seeing
 
 Among other topics.
+
+## Are mental states always mental representations?
+
+No. In the philosophy of perception, a *direct realist* argues that we directly perceive the world. By contrast, an *indirect* or *representational* realist argues that we perceive the world through *mental representations.* Consider perceiving a banana. The direct realist argues that you perceive the banana because the banana is in your field of vision. You don't perceive the banana because you stand in relation to a *mental representation* of the banana with some *mental content*.
