@@ -21,7 +21,7 @@ A *representationalist* argues that, when you believe 'the earth is flat':
 * you, in your state of belief, relate to a mental representation
 * the mental representation's [content](/posts/mental-content/) is that *the earth is flat*.
 
-Your belief that 'the earth is flat' is *about* the earth because you're in relation to a mental representation whose content is that *the earth is flat*. A representationalist thinks that the belief's intentionality is a side effect of having a mental representation with the content of the belief. 
+Your belief that 'the earth is flat' is *about* the earth because you're in relation to a mental representation whose content is *the earth is flat*. A representationalist thinks that your belief's intentionality is a side effect of you having a mental representation with the same content as your belief.
 
 ### 2. How do you *imagine?*
 
