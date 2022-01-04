@@ -9,7 +9,7 @@ authors:
   - firstName: Garrison
     lastName: McMullen
 ---
-The **intension** of a term is its meaning. Intension contrasts with **extension**. The extension of a term is whatever it refers to. For example, 'Eiffel Tower' refers to the physical structure in Paris. 
+The **intension** of a term is its meaning. Intension contrasts with **extension**. The extension of a term is whatever it refers to. For example, 'Eiffel Tower' refers to the physical structure in Paris.
 
 A term's extension can differ from its intension. For example, Clark Kent and Superman refer to the same person, but these two sentences differ:
 
@@ -21,13 +21,13 @@ Lois Lane trivially knows that Clark Kent is Clark Kent, but she doesn't know th
 1. Shakespeare believes that water quenches his thirst.
 2. Shakespeare believes that H2O quenches his thirst.
 
-Assuming the year is 1600, (1) is probably true, but (2) is impossible, because the chemical formula for water (H2O) doesn't exist yet.
+Assuming the year is 1600, (1) is probably true, but (2) is impossible, because the chemical formula for water (H2O) is not yet known. H20 and water have the same extension, but different intensions--at least in the year 1600.
 
-These examples imply that something about a word's *sense* and something about a conversation's *context* matters when determining intension. These examples also imply that some of our mental states, such as
+These examples imply that something about a conversation's *context* matters when determining intension. A term means more than just what it refers to. These examples also imply that some of our mental states, such as
 
 * believing
 * knowing
 * fearing
 * desiring
 
-depend on *sense* or *context*.
+depend on context.
