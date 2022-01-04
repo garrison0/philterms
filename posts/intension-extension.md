@@ -23,7 +23,7 @@ Lois Lane trivially knows that Clark Kent is Clark Kent, but she doesn't know th
 
 Assuming the year is 1600, (1) is probably true, but (2) is impossible, because the chemical formula for water (H2O) is not yet known. H20 and water have the same extension, but different intensions--at least in the year 1600.
 
-These examples imply that something about a conversation's *context* matters when determining intension. A term means more than just what it refers to. These examples also imply that some of our mental states, such as
+These examples imply that something about *context* matters when determining intension. A term means more than what it refers to. These examples also imply that some of our mental states, such as
 
 * believing
 * knowing
