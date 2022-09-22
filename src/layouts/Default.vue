@@ -207,9 +207,7 @@ td:nth-child(2n+1) {
 }
 
 audio { 
-  background: var(--main-highlight-color);
   margin: 5px 0;
-  width: 100%;
 }
 
 td ul {
